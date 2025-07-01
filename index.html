@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unlock Growth with a Custom AI Strategy</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: "#2563eb",
+              secondary: "#1e40af",
+            },
+            animation: {
+              gradient: "gradient 15s ease infinite",
+              float: "float 6s ease-in-out infinite",
+              "fade-in": "fadeIn 2s ease-out",
+            },
+            keyframes: {
+              gradient: {
+                "0%, 100%": {
+                  "background-position": "0% 50%",
+                },
+                "50%": {
+                  "background-position": "100% 50%",
+                },
+              },
+              float: {
+                "0%, 100%": {
+                  transform: "translateY(0)",
+                },
+                "50%": {
+                  transform: "translateY(-20px)",
+                },
+              },
+              fadeIn: {
+                "0%": {
+                  opacity: "0",
+                  transform: "translateY(20px)",
+                },
+                "100%": {
+                  opacity: "1",
+                  transform: "translateY(0)",
+                },
+              },
+            },
+          },
+        },
+      };
+    </script>
+    <style type="text/tailwindcss">
+      @layer utilities {
+        .gradient-bg {
+          background: linear-gradient(
+            -45deg,
+            #1e40af,
+            #3b82f6,
+            #06b6d4,
+            #0891b2
+          );
+          background-size: 400% 400%;
+          animation: gradient 15s ease infinite;
+        }
+        .text-gradient {
+          background: linear-gradient(to right, #60a5fa, #34d399);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+        @keyframes gradient {
+          0% {
+            background-position: 0% 50%;
+          }
+          50% {
+            background-position: 100% 50%;
+          }
+          100% {
+            background-position: 0% 50%;
+          }
+        }
+      }
+    </style>
+    <!-- Add Calendly Widget -->
+    <link
+      href="https://assets.calendly.com/assets/external/widget.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://assets.calendly.com/assets/external/widget.js"
+      type="text/javascript"
+      async
+    ></script>
+  </head>
+  <body class="antialiased text-gray-800">
+    <!-- Hero Section -->
+    <header
+      class="min-h-screen flex items-center gradient-bg text-white relative overflow-hidden"
+    >
+      <!-- Animated background elements -->
+      <div class="absolute inset-0 bg-black/20"></div>
+      <div class="absolute inset-0">
+        <div
+          class="absolute top-20 left-10 w-72 h-72 bg-blue-500/10 rounded-full mix-blend-multiply filter blur-xl animate-float"
+        ></div>
+        <div
+          class="absolute top-40 right-10 w-72 h-72 bg-cyan-500/10 rounded-full mix-blend-multiply filter blur-xl animate-float"
+          style="animation-delay: -2s"
+        ></div>
+        <div
+          class="absolute bottom-20 left-1/2 w-72 h-72 bg-indigo-500/10 rounded-full mix-blend-multiply filter blur-xl animate-float"
+          style="animation-delay: -4s"
+        ></div>
+      </div>
+
+      <div class="container mx-auto px-6 relative z-10">
+        <div class="max-w-3xl mx-auto text-center animate-fade-in">
+          <div
+            class="inline-block px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm mb-6 border border-white/20 hover:scale-105 transition-transform"
+          >
+            <span class="text-sm font-medium"
+              >Transform Your Business with AI</span
+            >
+          </div>
+          <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight">
+            Unlock Growth with a
+            <span class="text-gradient">Custom AI Strategy</span>
+          </h1>
+          <p class="text-xl md:text-2xl mb-8 text-gray-100">
+            Book a free 20-minute call to discover how AI and automation can
+            save hours, increase leads, and scale your business.
+          </p>
+          <a
+            href="javascript:void(0)"
+            onclick="Calendly.initPopupWidget({url: 'https://calendly.com/zerucodes/free-ai-strategy-consultation'});return false;"
+            class="inline-block px-8 py-4 text-lg font-semibold bg-white text-blue-600 rounded-lg hover:bg-gray-100 transition-all transform hover:scale-105 shadow-lg hover:shadow-xl backdrop-blur-sm"
+          >
+            Book My Free Call
+          </a>
+          <div
+            class="mt-12 flex justify-center space-x-6 animate-fade-in"
+            style="animation-delay: 0.5s"
+          >
+            <div
+              class="flex items-center backdrop-blur-sm bg-white/10 px-4 py-2 rounded-lg"
+            >
+              <i class="fas fa-check-circle text-green-400 mr-2"></i>
+              <span class="text-sm">No Cost</span>
+            </div>
+            <div
+              class="flex items-center backdrop-blur-sm bg-white/10 px-4 py-2 rounded-lg"
+            >
+              <i class="fas fa-clock text-green-400 mr-2"></i>
+              <span class="text-sm">20 Minutes</span>
+            </div>
+            <div
+              class="flex items-center backdrop-blur-sm bg-white/10 px-4 py-2 rounded-lg"
+            >
+              <i class="fas fa-lightbulb text-green-400 mr-2"></i>
+              <span class="text-sm">Custom Strategy</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Benefits Section -->
+    <section class="py-20 bg-gray-50">
+      <div class="container mx-auto px-6">
+        <div class="text-center mb-16">
+          <h2 class="text-3xl md:text-4xl font-bold mb-4">
+            Transform Your Business with AI
+          </h2>
+          <p class="text-xl text-gray-600">
+            Leverage cutting-edge AI technology to automate, optimize, and
+            scale.
+          </p>
+        </div>
+        <div class="grid md:grid-cols-3 gap-12">
+          <div
+            class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow"
+          >
+            <div
+              class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6"
+            >
+              <i class="fas fa-clock text-2xl text-blue-600"></i>
+            </div>
+            <h3 class="text-xl font-bold mb-4">Save 10+ Hours/Week</h3>
+            <p class="text-gray-600">
+              Automate repetitive tasks and streamline your workflow with custom
+              AI solutions tailored to your business.
+            </p>
+          </div>
+          <div
+            class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow"
+          >
+            <div
+              class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6"
+            >
+              <i class="fas fa-users text-2xl text-blue-600"></i>
+            </div>
+            <h3 class="text-xl font-bold mb-4">Automate Lead Capture</h3>
+            <p class="text-gray-600">
+              Convert more visitors into leads with AI-powered chatbots and
+              intelligent automation systems.
+            </p>
+          </div>
+          <div
+            class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow"
+          >
+            <div
+              class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6"
+            >
+              <i class="fas fa-robot text-2xl text-blue-600"></i>
+            </div>
+            <h3 class="text-xl font-bold mb-4">Custom AI Solutions</h3>
+            <p class="text-gray-600">
+              Get personalized AI use-cases and implementation strategies
+              specific to your business needs.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Mini Offer Section -->
+    <section class="py-20 bg-white" id="book-call">
+      <div class="container mx-auto px-6">
+        <div
+          class="max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-12"
+        >
+          <div class="flex-1">
+            <h2 class="text-3xl md:text-4xl font-bold mb-6">
+              What You'll Get From This Call
+            </h2>
+            <ul class="space-y-4">
+              <li class="flex items-start">
+                <i class="fas fa-check-circle text-green-500 mt-1 mr-3"></i>
+                <span
+                  >Comprehensive AI readiness assessment for your business</span
+                >
+              </li>
+              <li class="flex items-start">
+                <i class="fas fa-check-circle text-green-500 mt-1 mr-3"></i>
+                <span
+                  >Custom AI strategy recommendations based on your goals</span
+                >
+              </li>
+              <li class="flex items-start">
+                <i class="fas fa-check-circle text-green-500 mt-1 mr-3"></i>
+                <span
+                  >Actionable automation opportunities for immediate
+                  implementation</span
+                >
+              </li>
+              <li class="flex items-start">
+                <i class="fas fa-check-circle text-green-500 mt-1 mr-3"></i>
+                <span>ROI projection for proposed AI implementations</span>
+              </li>
+            </ul>
+            <a
+              href="javascript:void(0)"
+              onclick="Calendly.initPopupWidget({url: 'https://calendly.com/zerucodes/free-ai-strategy-consultation'});return false;"
+              class="inline-block mt-8 px-8 py-4 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
+            >
+              Schedule Your Free Strategy Call
+            </a>
+          </div>
+          <div class="flex-1">
+            <img
+              src="https://raw.githubusercontent.com/tailwindlabs/heroicons/master/optimized/24/outline/cpu-chip.svg"
+              alt="AI Strategy Illustration"
+              class="w-full dark:invert"
+            />
+            <div class="mt-8 text-center">
+              <p class="text-sm text-gray-600">
+                Powered by advanced AI technology
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="py-20 bg-gray-50">
+      <div class="container mx-auto px-6">
+        <div class="text-center mb-16">
+          <h2 class="text-3xl md:text-4xl font-bold mb-4">
+            Trusted by Growth-Focused Businesses
+          </h2>
+          <p class="text-xl text-gray-600">
+            Join 10+ agencies and coaches who've transformed their operations
+            with AI
+          </p>
+        </div>
+        <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+          <div class="bg-white p-8 rounded-2xl shadow-lg">
+            <div class="flex items-center mb-4">
+              <div class="text-yellow-400">★★★★★</div>
+            </div>
+            <p class="text-gray-600 mb-4">
+              "The AI strategy session was eye-opening. We implemented the
+              suggestions and saw a 40% reduction in manual tasks within the
+              first month."
+            </p>
+            <div class="flex items-center">
+              <img
+                src="https://ui-avatars.com/api/?name=Sarah+Johnson"
+                alt="Sarah Johnson"
+                class="w-12 h-12 rounded-full mr-4"
+              />
+              <div>
+                <h4 class="font-bold">Sarah Johnson</h4>
+                <p class="text-gray-600">Marketing Agency Owner</p>
+              </div>
+            </div>
+          </div>
+          <div class="bg-white p-8 rounded-2xl shadow-lg">
+            <div class="flex items-center mb-4">
+              <div class="text-yellow-400">★★★★★</div>
+            </div>
+            <p class="text-gray-600 mb-4">
+              "The personalized AI solutions helped us scale our lead generation
+              by 3x while maintaining the same team size."
+            </p>
+            <div class="flex items-center">
+              <img
+                src="https://ui-avatars.com/api/?name=Michael+Chen"
+                alt="Michael Chen"
+                class="w-12 h-12 rounded-full mr-4"
+              />
+              <div>
+                <h4 class="font-bold">Michael Chen</h4>
+                <p class="text-gray-600">Business Coach</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section class="py-20 bg-blue-600 text-white">
+      <div class="container mx-auto px-6 text-center">
+        <h2 class="text-3xl md:text-4xl font-bold mb-6">
+          Let's Unlock Your AI Advantage Today
+        </h2>
+        <p class="text-xl mb-8 text-blue-100">
+          Book your free strategy call now and discover how AI can transform
+          your business
+        </p>
+        <a
+          href="javascript:void(0)"
+          onclick="Calendly.initPopupWidget({url: 'https://calendly.com/zerucodes/free-ai-strategy-consultation'});return false;"
+          class="inline-block px-8 py-4 bg-white text-blue-600 rounded-lg hover:bg-gray-100 transition-all transform hover:scale-105 shadow-lg"
+        >
+          Book My Free Strategy Call
+        </a>
+        <p class="mt-6 text-sm text-blue-200">
+          Limited spots available. No credit card required.
+        </p>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-400 py-12">
+      <div class="container mx-auto px-6">
+        <div class="grid md:grid-cols-4 gap-8">
+          <div class="col-span-2">
+            <h3 class="text-white text-lg font-bold mb-4">
+              AI Strategy Consulting
+            </h3>
+            <p class="mb-4">
+              Transform your business with custom AI solutions and automation
+              strategies.
+            </p>
+          </div>
+          <div>
+            <h4 class="text-white text-lg font-bold mb-4">Quick Links</h4>
+            <ul class="space-y-2">
+              <li>
+                <a href="#" class="hover:text-white transition-colors"
+                  >About Us</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-white transition-colors"
+                  >Services</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-white transition-colors"
+                  >Case Studies</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-white transition-colors"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="text-white text-lg font-bold mb-4">Legal</h4>
+            <ul class="space-y-2">
+              <li>
+                <a href="#" class="hover:text-white transition-colors"
+                  >Privacy Policy</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-white transition-colors"
+                  >Terms of Service</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="border-t border-gray-800 mt-12 pt-8 text-center">
+          <p>&copy; 2024 AI Strategy Consulting. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
